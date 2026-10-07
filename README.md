@@ -4,7 +4,7 @@ A localized ATM simulator built in C using switch-cases, while loops, and struct
 
 An interactive, console-based **ATM Simulator** application built using C language. This project builds upon my first CLI Calculator project, focusing on intermediate control flow, state management, and real-time transaction tracking.
 
-## 🚀 Features
+##  Features
 
 - **Secure PIN Entry**: Protects account access using a 3-attempt lock mechanism.
 - **Persistent Session State**: Allows seamless banking operations (checking balances, withdrawing, and depositing) without needing to re-enter your PIN for every action.
@@ -12,13 +12,13 @@ An interactive, console-based **ATM Simulator** application built using C langua
 - **Transaction Cap Security**: Automatically enforces a **5-transaction limit** per session to protect the user from unauthorized card exploitation.
 - **Sassy Input Validation**: Built-in protective code preventing negative numbers, overdrafts, and empty transaction attempts (with customized error humor!).
 
-## 🛠️ Concepts Demonstrated
+##  Concepts Demonstrated
 
 - **`while` Loops**: Separated into two distinct phases—Phase 1 handles secure login retries, while Phase 2 keeps the active ATM banking menu open.
 - **`switch-case` Statements**: Implemented to build clean, readable routing logic for handling the core menu operations (`1` to `4`).
 - **`if-else` Nesting**: Applied defensively inside banking logic to track account values, manage attempt decrements, and validate limits.
 
-## 💻 How to Run
+##  How to Run
 
 ### Prerequisites
 Ensure you have a standard C compiler installed (like `gcc` or `clang`).
